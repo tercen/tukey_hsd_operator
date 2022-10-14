@@ -4,7 +4,7 @@
   "tags": ["statistical testing", "test", "linear model"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/tukey_hsd_operator"],
-  "container": "tercen/tukey_hsd_operator:latest",
+  "container": "tercen/tukey_hsd_operator:0.0.2",
   "properties": [
    {
     "kind": "EnumeratedProperty",
