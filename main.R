@@ -29,8 +29,8 @@ if(!is.null(lab_names)) {
 
 df <- ctx$select(c(".ci", ".ri", ".y", col_names, lab_names)) %>%
   group_by(.ci, .ri) %>%
-  anova_test(., form) %>%
+  tukey_hsd(., form) %>%
   as_tibble() %>%
-  rename(significance = !!sym("p<.05")) %>%
+  rename(significance = !!sym("p.adj.signif")) %>%
   ctx$addNamespace() %>%
   ctx$save()

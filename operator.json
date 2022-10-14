@@ -1,10 +1,10 @@
 {
-  "name": "ANOVA",
-  "description": "Analysis Of Variance: test for significant differences among group means.",
+  "name": "Tukey's test",
+  "description": "Test for significant pairwise differences among group means while controlling for Family-Wise Error Rate.",
   "tags": ["statistical testing", "test", "linear model"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/anova_operator"],
-  "container": "tercen/anova_operator:1.0.0",
+  "urls": ["https://github.com/tercen/tukey_hsd_operator"],
+  "container": "tercen/tukey_hsd_operator:latest",
   "properties": [
    {
     "kind": "EnumeratedProperty",

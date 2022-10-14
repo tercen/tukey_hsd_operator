@@ -1,14 +1,15 @@
-# ANOVA
+# Tukey's Test
 
 ##### Description
 
-The `anova` operator performs an analysis of variance of the data.
+Test for significant pairwise differences among group means while controlling for Family-Wise Error Rate.
 
 ##### Usage
 
 Input projection|.
 ---|---
 `color` | represents the groups to compare
+`labels` (optional) | represents the random effects to include in the model
 `y-axis`| measurement value
 
 Output relations|.
@@ -23,12 +24,12 @@ Output relations|.
 
 ##### Details
 
-`anova` operator performs an analysis of variance of the data. The operator is based on the [anova R function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/anova).
+The operator is based on the [tukey_hsd R function](https://www.rdocumentation.org/packages/rstatix/versions/0.7.0/topics/tukey_hsd).
 
 ##### References
 
-See [Analysis of variance on Wikipedia](https://en.wikipedia.org/wiki/Analysis_of_variance).
+See [Tukey's range test on Wikipedia](https://en.wikipedia.org/wiki/Tukey%27s_range_test).
 
 ##### See Also
 
-[t-Test operator](https://github.com/tercen/t_test_operator)
+[ANOVA operator](https://github.com/tercen/anova_operator)
