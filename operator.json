@@ -1,6 +1,6 @@
 {
-  "name": "Tukey's test",
-  "description": "Test for significant pairwise differences among group means while controlling for Family-Wise Error Rate.",
+  "name": "Tukey Test",
+  "description": "Tests for significant pairwise differences among group means while controlling for Family-Wise Error Rate.",
   "tags": [
     "statistical testing",
     "linear model"
